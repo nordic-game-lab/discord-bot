@@ -10,7 +10,7 @@ module.exports.run = (client, message, args) => {
     message.channel.send("User does not exisist or no user specified")
   }
   }else{
-    message.channel.send("You do not have the right role")
+    message.channel.send("You do not have the necessary permisions to use this command.")
   }
   
 }
