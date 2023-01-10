@@ -5,9 +5,9 @@ module.exports.run = (client, message, args) => {
   if(member){
     const memberTarget = message.guild.members.cache.get(member.id)
     memberTarget.ban();
-    message.channel.send("User was banned");
+    message.channel.send("User was banned.");
   }else{
-    message.channel.send("User does not exisist or no user specified")
+    message.channel.send("User does not exisist or no user specified.")
   }
   }else{
     message.channel.send("You do not have the necessary permisions to use this command.")
