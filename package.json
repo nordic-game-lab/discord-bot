@@ -1,13 +1,24 @@
 {
-  "name": "crowdedhideouspoint",
+  "name": "NGL-discord-bot",
   "version": "1.0.1",
   "description": "",
+  "files": [
+    "CHANGELOG.md"
+  ],
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nordic-game-lab/discord-bot.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
   },
-  "keywords": [],
+  "keywords": [
+    "discord",
+    "discord_bot",
+    "javascript"
+  ],
   "author": "Hi5a",
   "license": "ISC",
   "dependencies": {
